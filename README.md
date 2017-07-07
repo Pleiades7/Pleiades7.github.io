@@ -1,68 +1,106 @@
-# Pleiades7.github.io
-<!DOCTYPE html>
-<html>
-<head>
-<title>A Dog's Life - Appointment</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="adogslife.css">
-</head>
+html
 
-<body>
-	<div id="wrapper">
-		<header>
-			<h1>A Dog's Life</h1>
-			<nav>
-			<ul>
-			<li style="font-weight: bold"><a href="home.html">Home</a></li>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
-			</ul> 
-			</nav>	
-		</header>	
-<hr>
-	<div>
-		<div id="text"><h3>Busy with work? No time to take care of your <br>pet dog? Dont fear but feel free to set an <br> appointment with us. We provide services just <br> more than you expected. <br> Hop over and check out our services that we <br> provide and Have fun&#46;&#46;&#46;</h3></div>
-		<div id="pic">
-			<img src="dog.jpg" alt="dog pic" height="200px" width="400px">
-		</div>
-		
-		<div id="link">
-			<a href="about.html">About Us&rsaquo;&rsaquo;</a>	
-		</div>
-		
-	</div>
-	
-	</header>
-<hr>
-	<div id="homeservices">
-		<h2>Services</h2>
-			<img src="groom.jpg" alt="groom pic" height="250px" width="350px">
-				<a href="appointment.html">Appointment for Grooming</a>
+	#wrapper {  background-color: #FFFFFF; 
+				width: 90%;
+				margin: auto;
+				color: #330000;
+				}
+				
+	body { 	font-family: Times New Roman, serif;
+			background-color: #F4E8BC;
+			}
 			
-			<img src="training.jpg" alt="training pic" height="250px" width="350px">
-				<a href="appointment.html">Appointment for Training</a>
-			<br><br><br><br>
-			<img src="daycare.jpg" alt="daycare pic" height="200px" width="350px">
-				<a href="appointment.html">Appointment for DayCare</a>
-		
-			<img src="vacation.jpg" alt="vacation pic" height="200px" width="350px">
-				<a href="appointment.html">Appointment for Vacation Boarding</a>		
-		
-	<h2>
-	<a href="contact.html">Contact Information and locate us</a>
-	</h2>
-	</div>
-<hr>	
-	<footer>
-		<p>Operating hours: 10:00am - 10:00pm (Weekdays), 10:00am - 5:30pm (Weekends)</p>
-		<a class="btmnav" href="home.html">Home</a>
-		<a class="btmnav" href="about.html">About Us</a>
-		<a class="btmnav" href="services.html">Services</a>
-		<a class="btmnav" href="contact.html">Contact Us</a>
-		<br><br>
-		Copyright &copy; 2017 A Dog's Life - All Rights Reserved
-	</footer>
-	</div>
-</body>
-</html>
+	h1	{ 	text-align: center;
+			text-shadow: 3px 3px 3px #828282;
+			background-color: #F6F6B0;
+			padding: 10px 0 10px 5px;
+			margin: auto;}
+			
+	nav ul{		list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333; }
+			
+	nav li { 	float: left;
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;}
+				
+	nav a {	display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;}
+
+	nav a:hover:not(.active) {	background-color: #111;}
+	.appointment{	padding-left: 20px; 
+					text-decoration: none;
+					color: #330000;
+				}
+	#pic {
+		display: block;
+		margin: auto;	
+		text-align:center;
+		position: relative;
+		bottom: 130px;
+		left: 50px;
+		}
+	#appointment {	padding-left:10px;}		
+	#faq {	position: relative;
+			float: right;
+			width: 27%}
+	#text{
+		position: relative;
+		top: 50px;
+		left: 50px;	
+	}
+	#link{
+		position: relative;
+		float: right;
+		bottom: 250px;
+		right: 150px;
+		font-style: oblique;
+		font-size: 30px;
+		}
+	#homeservices{
+		padding-left:20px;
+	}
+	.link{	padding-left: 20px; 
+					text-decoration: none;
+					color: #330000;
+				}
+			
+	.back{	padding-left: 10px; 
+			text-decoration: none;
+			color: #330000;
+			}
+	
+	.btmnav{	text-decoration: none;
+				font-weight: bold;
+				padding-right: 10px;
+				color: #440000;}
+	
+	footer{ 	background-color: #f4c460;
+				padding: 20px 20px;
+				text-decoration: none; }
+				
+	main{	padding: 20px;}
+	.link{	padding-left: 20px; 
+					text-decoration: none;
+					color: #330000;
+				}
+				
+	.block {
+		width: 50%;
+		float: left;
+		height: 0;
+		padding-bottom: 50%;
+		}
+				
+	@media only screen and (max-width:768px){
+			#faq { 	float: left;
+					width: 100%;}
+		}
