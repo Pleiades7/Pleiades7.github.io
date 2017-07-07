@@ -8,11 +8,8 @@
 </head>
 
 <body>
-
 	<div id="wrapper">
-	
 		<header>
-		
 			<h1>A Dog's Life</h1>
 			<nav>
 			<ul>
@@ -21,24 +18,17 @@
 			<li><a href="services.html">Services</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
 			</ul> 
-			</nav>
-			
-		</header>
-		
+			</nav>	
+		</header>	
 <hr>
-
 	<div>
-	
 		<div id="text"><h3>Busy with work? No time to take care of your <br>pet dog? Dont fear but feel free to set an <br> appointment with us. We provide services just <br> more than you expected. <br> Hop over and check out our services that we <br> provide and Have fun&#46;&#46;&#46;</h3></div>
-		
 		<div id="pic">
-		
 			<img src="dog.jpg" alt="dog pic" height="200px" width="400px">
 			
 		</div>
 		
 		<div id="link">
-		
 			<a href="about.html">About Us&rsaquo;&rsaquo;</a>
 			
 		</div>
@@ -47,8 +37,6 @@
 	
 	</header>
 <hr>
-
-
 	<div id="homeservices">
 		<h2>Services</h2>
 			<img src="groom.jpg" alt="groom pic" height="250px" width="350px">
